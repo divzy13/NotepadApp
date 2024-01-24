@@ -1,13 +1,12 @@
-import { useSelector, useDispatch} from 'react-redux';
 import './App.css';
-import Notepad from './components/notepad';
+import Header from './components/Header';
+import Notes from './components/Notes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Notepad></Notepad>
-      </header>
+    <div className="main">
+      <Header/>
+      <Notes/>
     </div>
   );
 }
