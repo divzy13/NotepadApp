@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 
 body {
-  background-image: url("C:\Users\dirav1\Documents\Project\my-app\src\img\Space-Background-Images.jpg");
+  background-image: url("/src/img/Space-Background-Images.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Montserrat";
