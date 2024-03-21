@@ -6,7 +6,6 @@ import { v4 as uuid } from "uuid";
 import { getTenRandomCatImages } from "../services/cat";
 import CallCat from "./CallCat";
 import Child from "./child";
-import Counter from "./counter";
 
 export const mycontext = createContext();
 
@@ -102,7 +101,6 @@ function Notes(props) {
       <mycontext.Provider value={user}>
         <Child />
       </mycontext.Provider>
-      <Counter/>
     </div>
   );
 }
