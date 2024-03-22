@@ -3,7 +3,6 @@ import Note from "./Note";
 import "../note.css";
 import CreateNote from "./CreateNote";
 import { v4 as uuid } from "uuid";
-import { getTenRandomCatImages } from "../services/cat";
 import CallCat from "./CallCat";
 import Child from "./child";
 
